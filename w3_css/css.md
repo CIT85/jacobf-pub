@@ -16,3 +16,4 @@
 * Modifying Multiple Properties: Multiple property values in one ruleset are separated by semicolons, like color: red; width: 500px;.
 * Selecting Multiple Elements: You can select and style multiple elements with a single ruleset by separating multiple selectors with commas, like p, li, h1 { color: red; }.
 * Different Types of Selectors: There are various types of selectors apart from element selectors, allowing more specific selections.
+* DRY = don't repete yourself. Helps keep code clean.
