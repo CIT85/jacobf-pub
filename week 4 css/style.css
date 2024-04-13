@@ -6,7 +6,8 @@
 
 .container {
     border: 2px dashed red;
-    width: 400px;
-    padding: 1.5em;
-    margin: 1.5em;
+    /* width: 400px;
+    padding: 1.5em; */
+    margin: 1.5em
+    padding 1.5em 2em 3em 4em;
 }
