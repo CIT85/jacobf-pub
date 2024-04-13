@@ -1,20 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    padding: 10%;
+    font-size: 2rem;
 }
 
-.container {
-    padding: 2em 1em 1em 1em;
-    border: 2px dashed rgb(145, 28, 28);
-    margin: 1.5em
-}
+/* input, button {
+    font: inherit
+} */
 
-.circle {
-    margin: 3rem;
-    background-color: blueviolet;
-    width: 100px;
-    height: 100px;
-    border: 2px solid black;
-    border-radius: 50px;
+
+
+
+
+
+
+
+
+
+
+p {
+    text-decoration: overline;
 }
