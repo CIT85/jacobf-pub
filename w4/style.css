@@ -25,17 +25,33 @@ p {
 table {
     width: 100%;
     border-collapse: collapse;
+    padding: 15px;
 }
 th, td {
-    border: 5px solid black;
-    padding: 10px;
+    border: 1px solid black;
+    padding: 8px;
     text-align: center;
 }
 th {
     background-color: #f2f2f2;
 }
 
-html {
-    color: yellowgreen;
+.big-button {
+    text-align: center;
+    padding: 15px 30px;
+    padding-top: 20px;
+    font-size: 2rem;
+    background-color: rgb(46, 46, 46);
+    color: aliceblue;
+    border: 1.5px solid black;
+    border-radius: 8px;
 }
 
+.table-title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(97, 105, 218);
+}
