@@ -1,0 +1,110 @@
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    }
+
+/* Styles for the body */
+body {
+    /* Set font size */
+    font-size: large; /* Larger font size than the default */
+
+    /* Set font weight */
+    font-weight: bold; /* Bold font weight */
+
+    /* Set background color */
+    background-color: #D1D1D1; /* Light gray background color */
+
+    /* Set border */
+    border: 2px solid #000000; /* Solid black border with 2px width */
+
+    /* Set padding */
+    padding: 30px; /* 30px padding around the content */
+
+    /* Set text color */
+    color: #202020; /* Dark gray text color */
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+    
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 15px;
+}
+th, td {
+    border: 1px solid #272727;
+    padding: 8px;
+    text-align: center;
+    background-color: #b9b9b9;
+}
+th {
+    background-color: #DBDBDB;
+}
+
+/* Styles for a large button */
+.big-button {
+    /* Center align text */
+    text-align: center;
+
+    /* Set padding */
+    padding: 15px 30px; /* top and bottom padding 15px, left and right padding 30px */
+    padding-top: 20px; /* Additional top padding */
+
+    /* Set font size */
+    font-size: 2rem; /* 2 times the root font size */
+
+    /* Set background color */
+    background-color: rgb(46, 46, 46); /* Dark gray background color */
+
+    /* Set text color */
+    color: aliceblue; /* Light blue text color */
+
+    /* Set border */
+    border: 1.5px solid black; /* Black solid border with 1.5px width */
+
+    /* Set border radius */
+    border-radius: 8px; /* Rounded corners with 8px radius */
+}
+
+
+.table-title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(97, 105, 218);
+}
+
+.bigger-text {
+    font-size: larger;
+}
+
+figure {
+    border: 3px solid;
+    background-color: #636363;
+}
+
+.main-title { /*This has a score of 10, as it is a class. This is pretty a pretty good score, but could be higher, especally if I used an ID*/
+    border: 4px solid black;
+    /* Set background color */
+    background-color: #a3a3a3bd; /* Semi-transparent gray background color */
+
+    /* Set font family */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Specify font family */
+
+    /* Set text color */
+    color: #4C4C4C; /* Dark gray text color */
+
+    /* Center align text */
+    text-align: center; /* Center-align the text */
+}
