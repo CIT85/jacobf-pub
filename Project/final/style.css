@@ -1,0 +1,220 @@
+html {
+    background-color: #ffe6a7
+}
+
+.title { /* Styles title in the top right with these colors */
+    color: #bb9457; /* Sets the text color to a shade of brown */
+    border: 2px solid rgb(28, 85, 87); /* Sets a border with a color defined in RGB */
+    background-color: #432818; /* Sets the background color to a dark brown */
+    width: 20%; /* Sets the width of the element to 20% of its container */
+    border-radius: 50px; /* Applies rounded corners to the element */
+    text-align: center; /* Centers the text horizontally */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Specifies the font family */
+}
+
+.welcome {
+    display: flex; /* Sets the display property to flex */
+    justify-content: center; /* Centers the content horizontally within its container */
+    padding-top: 4rem; /* Adds padding to the top of the element */
+    text-align: center; /* Centers the text horizontally */
+    font-size: 3rem; /* Sets the font size to 3 rem */
+    font-family: 'Times New Roman', Times, serif; /* Specifies the font family */
+}
+
+.about h1{
+    display: flex; /* Sets the display property to flex */
+    justify-content: center; /* Centers the content horizontally within its container */
+    font-size: 45px; /* Sets the font size to 45 pixels */
+}
+
+.about p {
+    display: flex; /* Sets the display property to flex */
+    font-size: large; /* Sets the font size to a larger size */
+}
+
+.intro {
+    text-align: center; /* Centers the text horizontally */
+}
+
+
+figcaption {
+    opacity: 0; /* Sets the opacity of the element to 0, making it fully transparent */
+}
+
+figure {
+    float: left; /* Floats the element to the left, allowing content to wrap around it */
+}
+
+.nav-bar {
+    display: flex; /* Sets the display property to flex */
+    justify-content: space-between; /* Distributes the space between items evenly */
+    align-items: center; /* Centers items vertically within the container */
+    padding: 10px 20px; /* Adds padding to the top and bottom (10px) and left and right (20px) */
+    background-color: #bb9457; /* Sets the background color to a shade of brown */
+    border-radius: 25px; /* Applies rounded corners to the element */
+}
+
+.logo a {
+    color: #432818; /* Sets the color of the link text to a dark brown */
+    text-decoration: none; /* Removes underline from the link text */
+    font-size: 35px; /* Sets the font size of the link text to 35 pixels */
+    font-weight: bold; /* Makes the link text bold */
+}
+
+.menu {
+    list-style-type: none; /* Removes the default bullet points from the list */
+    margin: 0; /* Removes default margin from the list */
+    padding: 0; /* Removes default padding from the list */
+    display: flex; /* Sets the display property to flex */
+}
+
+
+.menu li {
+    margin-right: 15px; /* Adds right margin of 15px to each list item */
+}
+
+.menu li:last-child {
+    margin-right: 0; /* Removes right margin from the last list item */
+}
+
+.menu li a {
+    color: #000000; /* Sets the color of the link text to black */
+    text-decoration: none; /* Removes underline from the link text */
+    font-size: 18px; /* Sets the font size of the link text to 18 pixels */
+    font-weight: bold; /* Makes the link text bold */
+}
+
+.menu li a:hover {
+    color: #ffd700; /* Changes color of link text to gold on hover */
+}
+
+.index-container {
+    gap: 100px; /* Sets the gap between flex items in the container to 100px */
+    background-color: #99582a; /* Sets the background color to a shade of brown */
+    display: flex; /* Sets the display property to flex */
+    padding-top: 50px; /* Adds padding to the top of the container */
+    border: 3px solid black; /* Adds a solid black border */
+    border-radius: 15px; /* Applies rounded corners to the container */
+    text-align: center; /* Centers the text horizontally */
+    bottom: 0px; /* Positions the container at the bottom of its containing element */
+    left: 50px; /* Positions the container 50px from the left edge of its containing element */
+    justify-content: center; /* Centers content horizontally within the container */
+    align-items: center; /* Centers content vertically within the container */
+}
+
+
+
+.ai-links, .yt-links {
+    display: flex; /* Sets the display property to flex */
+    flex-direction: column; /* Arranges flex items vertically */
+    align-items: center; /* Centers flex items horizontally */
+    margin-right: 20px; /* Adds right margin of 20px to the elements */
+    text-align: center; /* Centers text horizontally within the elements */
+}
+
+.bottom-right {
+    position: fixed; /* Sets the positioning to fixed */
+    bottom: 0; /* Positions the element at the bottom of the viewport */
+    right: 0; /* Positions the element at the right edge of the viewport */
+    margin: 20px; /* Adds margin of 20px on all sides */
+}
+
+.non-home-img {
+    display: flex; /* Sets the display property to flex */
+    float: left; /* Floats the element to the left */
+}
+
+.non-home-info {
+    font-size: larger; /* Sets the font size of the text to larger */
+}
+
+.color-box {
+    width: 100px; /* Sets the width of the element to 100px */
+    height: 100px; /* Sets the height of the element to 100px */
+    display: inline-block; /* Displays the element as an inline block */
+    margin-right: 10px; /* Adds right margin of 10px to the element */
+}
+
+
+.gallery-intro {
+    text-align: center; /* Centers text horizontally */
+    display: flex; /* Sets the display property to flex */
+}
+
+.grid-container {
+    display: grid; /* Sets the display property to grid */
+    grid-template-columns: repeat(3, 1fr); /* Creates a grid with 3 columns of equal width */
+    gap: 5px; /* Sets the gap between grid items to 5px */
+}
+
+.grid-item {
+    overflow: hidden; /* Hides any content that overflows the grid item */
+}
+
+.grid-item img {
+    width: 60%; /* Sets the width of the image inside grid items to 60% */
+    height: 75%; /* Sets the height of the image inside grid items to 75% */
+}
+
+.hide {
+    display: none; /* Hides elements with the class "hide" */
+}
+
+
+/* Mobile devices (less than 481px) */
+@media (max-width: 480px) {
+    .title {
+        width: 100%; /* Adjusts the width to fill the entire container */
+        font-size: 20px; /* Sets the font size to 20 pixels */
+    }
+
+    .menu li {
+        margin-right: 10px; /* Adjusts spacing between menu items */
+    }
+}
+
+/* iPads, Tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .title {
+        width: 100%; /* Adjusts width to fit tablet-sized screens */
+    }
+}
+
+/* Small screens, laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .index-container {
+        gap: 50px; /* Adjusts gap to fit larger screens */
+    }
+}
+
+/* Desktops, large screens (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .index-container {
+        gap: 75px; /* Adjusts gap to fit larger screens */
+    }
+
+    .menu li {
+        margin-right: 20px; /* Increases spacing between menu items */
+    }
+
+    .nav-bar {
+        padding: 20px 40px; /* Increases padding for navigation bar */
+    }
+}
+
+/* Extra large screens, TV (1201px and greater) */
+@media (min-width: 1201px) {
+    .index-container {
+        gap: 100px; /* Further adjusts gap for extra large screens */
+    }
+
+    .menu li {
+        margin-right: 30px; /* Further increases spacing between menu items */
+    }
+
+    .nav-bar {
+        padding: 30px 60px; /* Further increases padding for navigation bar */
+    }
+}
+
+
