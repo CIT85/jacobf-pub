@@ -217,4 +217,33 @@ figure {
     }
 }
 
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #bb9457;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #432818;
+}
 

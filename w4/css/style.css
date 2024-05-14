@@ -108,3 +108,34 @@ figure {
     /* Center align text */
     text-align: center; /* Center-align the text */
 }
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
